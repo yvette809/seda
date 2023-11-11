@@ -9,7 +9,6 @@ import logo from '../assets/logo-01.jpg'
 
 const Footer = () => {
 
-    const currentYear = new Date().getFullYear
   return (
     <div className='container-fluid footer'>
     <div className=" d-flex justify-content-around ">
