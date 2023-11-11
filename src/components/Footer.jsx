@@ -37,7 +37,7 @@ const Footer = () => {
 <div className="logo-signature d-flex justify-content-between pb-3">
         <img src={logo} alt="Seda logo" className='logo2' />
         <p className='text-white'>@Sedaache,2003</p>
-        <a href="#"><BsFillArrowUpCircleFill/></a>
+        <a href="/#"><BsFillArrowUpCircleFill/></a>
     </div>
 </div>
   )
