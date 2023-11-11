@@ -13,7 +13,7 @@ nav.main-nav{
   width: 10%;
 }
 .home{
-  background: linear-gradient(to right, #00F5A0, #fff);
+  background: linear-gradient(to right, #56bd60, #fff);
   min-height: 60vh;
 }
 
@@ -50,13 +50,13 @@ nav.main-nav{
   overflow: hidden;
 }
 
-.intro button{
-  padding: 1rem;
+.intro button, .donate button{
+  padding: 0.8rem;
   font-size: 1.2rem;
   font-weight: bolder;
 }
 
-.intro button:hover{
+.intro button, .donate button:hover{
   background-color:aquamarine;
   opacity: 0.7;
   color: rgb(60, 48, 48);
@@ -69,6 +69,10 @@ img, svg{
   color: #00F5A0;
 }
 
+ a.icon svg{
+  height: 30px;
+  width: 30px;
+}
 .achievements {
   
   
@@ -77,4 +81,15 @@ img, svg{
 .workshops{
   font-weight: bolder;
   padding: 2rem 6rem;
+}
+
+/* footer */
+
+.footer{
+  background: #142a19;
+  
+}
+
+.logo2{
+  border-radius: 50%;
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import MyCarousel from '../components/MyCarousel'
 import Achievement from '../components/Achievement'
+import Footer from '../components/Footer'
 import {Button} from 'react-bootstrap'
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
 
         </div>
           <Achievement/>
+          <Footer/>
           </>
   )
 }
