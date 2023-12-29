@@ -2,7 +2,9 @@ import React from 'react'
 
 const Sponsors = () => {
   return (
-    <div>Sponsors</div>
+    <div className='container-fluid sponsors'>
+
+    </div>
   )
 }
 
