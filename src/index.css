@@ -14,6 +14,23 @@ nav.main-nav{
   height: 10%;
   width: 10%;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #00F5A0;
+  background-color: none !important;
+  transition: hover 0.1s ease-in-out; 
+}
+
+.nav-link:hover{
+  text-decoration: none;
+  color: #00F5A0;
+}
 /* End of navigation */
 
 /* home */
@@ -96,4 +113,47 @@ img, svg{
   border-radius: 50%;
 }
 /* End of home */
+
+/* hero*/
+.hero-img {
+  position: relative;
+  
+}
+
+.hero-img img.img-1{
+  width: 85%;
+  height: auto;
+  border-radius: 5px;
+
+}
+
+.hero-img img.img-2{
+  position: absolute;
+  bottom: 30%; 
+  left: 50%;   
+  transform: translate(-20%, 50%); 
+  width: 50%; 
+  height: 50%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+/* end of hero */
+
+/* background */
+ul.objectives{
+  list-style-type: circle;
+}
+
+ul.objectives li{
+  margin-top: 2rem;
+}
+/* end of background */
+
+/* banner */
+.donation-banner{
+  background-color: #142a19;
+  padding: 4rem;
+}
+/* end of banner */
 
