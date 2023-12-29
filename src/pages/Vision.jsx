@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 import image1 from '../assets/IMG-20221217-WA0060.jpg'
 import { FaQuoteRight } from "react-icons/fa6";
-import DonationBanner from '../components/DonationBanner';
+
 
 const Vision = () => {
   return (
