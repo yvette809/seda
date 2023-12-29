@@ -151,6 +151,15 @@ ul.objectives{
 ul.objectives li{
   margin-top: 2rem;
 }
+
+.founder{
+color:#00F5A0
+}
+
+.founder:hover{
+  text-decoration:none;
+  color:#00F5A0
+}
 /* end of background */
 
 /* banner */
