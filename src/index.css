@@ -95,6 +95,9 @@ img, svg{
   height: 30px;
   width: 30px;
 }
+.fa-right{
+  color: black;
+}
 
 
 .workshops{
@@ -157,3 +160,16 @@ ul.objectives li{
 }
 /* end of banner */
 
+/* vision */
+.vision{
+  background-color: #00F5A0;
+ display: inline-block;
+ transform: translateX(100%);
+ padding: 2rem;
+ color: #fff;
+ border-radius: 10px;
+ font-size: 1.2rem;
+ font-weight: 700;
+}
+
+/* end of vision */

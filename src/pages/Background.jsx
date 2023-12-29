@@ -11,7 +11,7 @@ const Background = () => {
 
    Since its inception, SEDA has steadfastly directed its efforts towards alleviating illiteracy, poverty, hunger, and the impacts of climate change. Through the strategic empowerment of women and youth in grassroots communities, incorporating transferable life skills, tangible resources, and mentoring/coaching, with a special emphasis on Climate Smart Agriculture, SEDA aims to holistically tackle the interconnected issues plaguing humanity. The organization firmly believes that by addressing these challenges simultaneously, without compromising the resolution of any one issue, sustainable solutions can be achieved." image1={image1} image2={image2}/>
 
-<DonationBanner/>
+<DonationBanner title1="Please Join Us To Give Our Community A Better Life " title2='Just Like Muhammed Ali said "Service To Others Is The Rent You Pay Here On Earth"' action="Let's Donate"/>
 <div className="container mb-3">
    <p className='mt-4'><strong>Our Core Objectives are:</strong></p>
    <ul className="objectives">
