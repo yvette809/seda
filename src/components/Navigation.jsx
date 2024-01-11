@@ -8,7 +8,7 @@ import { Link,Outlet } from 'react-router-dom';
 function Navigation() {
   return (
     <>
-    <Navbar expand="lg" className="main-nav" >
+    <Navbar expand="md" className="main-nav" >
       <Container>
         <Link to="/"><Navbar.Brand ><img src={logo} alt="seda logo" className="logo" /></Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
