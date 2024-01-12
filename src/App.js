@@ -12,6 +12,8 @@ import Cultivation from './pages/Cultivation'
 import Climate from './pages/Climate'
 import Donation from './pages/Donation'
 import Footer from './components/Footer'
+import Volunteer from './pages/Volunteer'
+import News from './pages/News'
 
 const App = () => {
   return (
@@ -28,6 +30,8 @@ const App = () => {
     <Route path="cultivation" element={<Cultivation/>} />
     <Route path="climate-action" element={<Climate/>} />
     <Route path="donation" element={<Donation/>} />
+    <Route path="volunteer" element={<Volunteer/>} />
+    <Route path="news" element={<News/>} />
        {/*    <Route path="*" element={<NoPage />} /> */}
        
       </Routes>

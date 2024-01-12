@@ -117,6 +117,15 @@ a.icon svg {
 .logo2 {
   border-radius: 50%;
 }
+
+.volunteer-link,
+.news-link {
+  color: #fff;
+}
+.volunteer-link:hover,
+.news-link:hover {
+  text-decoration: none;
+}
 /* End of home */
 
 /* hero*/
@@ -203,7 +212,50 @@ ul.objectives li {
   background-repeat: no-repeat;
 }
 /* end of sponsors */
+/* donation */
 
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  color: #ffffff;
+  height: 60vh;
+  border: 1px solid darkcyan;
+  background-color: red;
+  font-weight: 700;
+}
+/* Donation Styles */
+.donation-container {
+  background-color: #f8f9fa; /* Set a background color */
+  padding: 20px;
+  text-align: center;
+}
+
+.donation-content {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.donation-content h2 {
+  color: #142a19;
+}
+.donation-content p:nth-child(2) {
+  font-weight: bold;
+  color: #28a745;
+}
+
+small {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  color: #6c757d;
+}
+
+/* end of donation */
+/* volunteer */
+.opportunities ul {
+  list-style-type: none;
+}
 /* media queries */
 /* mobile */
 
@@ -240,21 +292,20 @@ ul.objectives li {
     align-items: center;
   }
 
-
   .home-pointer {
     display: none;
   }
   /* end of home */
 
   /* vision */
-  .img-1{
-   margin: 1.2rem auto;
+  .img-1 {
+    margin: 1.2rem auto;
   }
-  .title{
+  .title {
     color: #00f5a0;
   }
 
-  p.vision{
+  p.vision {
     display: flex;
     justify-content: center;
     transform: translateX(0);
@@ -263,6 +314,17 @@ ul.objectives li {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   }
   /* end of vision */
+
+  /* volunteer */
+  .volunteer-form {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .volunteer-form button {
+    margin-top: 1.2rem;
+  }
+  /* end of volunteer */
 }
 
 /* ipads */
@@ -295,21 +357,31 @@ ul.objectives li {
     width: auto;
   }
 
-   /* vision */
-   .img-1{
+  /* vision */
+  .img-1 {
     margin: 1.2rem auto;
-   }
-   .title{
-     color: #00f5a0;
-   }
- 
-   p.vision{
-     display: flex;
-     justify-content: center;
-     transform: translateX(0);
-     width: 300px;
-     margin: 0.2rem auto;
-     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-   }
-   /* end of vision */
+  }
+  .title {
+    color: #00f5a0;
+  }
+
+  p.vision {
+    display: flex;
+    justify-content: center;
+    transform: translateX(0);
+    width: 300px;
+    margin: 0.2rem auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  /* end of vision */
+  /* volunteer */
+  .volunteer-form {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .volunteer-form button {
+    margin-top: 1.2rem;
+  }
+  /* end of volunteer */
 }
