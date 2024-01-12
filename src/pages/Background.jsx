@@ -22,12 +22,12 @@ const Background = () => {
         At SEDA, we're not just about dreams; we're about impactful action. We've already achieved significant milestones in community development, and with your support, we can accomplish so much more. By investing in SEDA, you're not just supporting an organization; you're investing in the future of sustainable, inclusive, and thriving communities.
       </p>
       <p>
-        Your contribution will directly fund our projects aimed at improving healthcare, education, and economic opportunities in underserved areas. Our transparent and accountable approach ensures that every dollar you invest in SEDA translates into tangible positive changes on the ground.
+        Your contributions will directly fund our initiatives aimed at improving healthcare, education, and economic opportunities in underserved areas. Our transparent and accountable approach ensures that every dollar you invest in SEDA translates into tangible positive changes on the ground.
       </p>
       <p>
         Join us in this transformative journey. Together, we can create a lasting impact and build a future where every individual, regardless of their background, has the opportunity to lead a fulfilling and prosperous life. Partner with SEDA today and be a catalyst for positive change!
       </p>
-      {/* Add more paragraphs or HTML tags as needed */}
+     
     </>
   }
   image1={image1}
