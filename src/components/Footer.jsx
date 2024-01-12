@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="contact-us text-white font-weight-bolder px-5 pt-4 col">
             <h2 className="contact">Address</h2>
             <p>
-              Alakum ,Bamenda,
+              Alakuma ,Bamenda,
               <br />
               North West Region <br /> Cameroon
             </p>

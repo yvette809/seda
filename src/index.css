@@ -134,21 +134,12 @@ a.icon svg {
 }
 
 .hero-img img.img-1 {
-  width: 85%;
-  height: auto;
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
   border-radius: 5px;
 }
 
-.hero-img img.img-2 {
-  position: absolute;
-  bottom: 40%;
-  left: 50%;
-  transform: translate(-20%, 50%);
-  width: 60%;
-  height: 50%;
-  border-radius: 5px;
-  object-fit: cover;
-}
 
 /* end of hero */
 
@@ -215,12 +206,11 @@ ul.objectives li {
   z-index: -1;
 }
 
-.content{
+.content {
   z-index: 1;
 }
 /* end of sponsors */
 /* donation */
-
 
 /* Donation Styles */
 .donation-container {
@@ -324,8 +314,11 @@ small {
   }
   /* end of volunteer */
   /* background */
-  .hero-img img.img-2{
+  .hero-img img.img-2 {
     display: none;
+  }
+  .hero-img img.img-1 {
+    
   }
   /* end of background */
 }
