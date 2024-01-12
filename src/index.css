@@ -210,20 +210,18 @@ ul.objectives li {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+  z-index: -1;
+}
+
+.content{
+  z-index: 1;
 }
 /* end of sponsors */
 /* donation */
 
-.content {
-  position: relative;
-  z-index: 1;
-  padding: 20px;
-  color: #ffffff;
-  height: 60vh;
-  border: 1px solid darkcyan;
-  background-color: red;
-  font-weight: 700;
-}
+
 /* Donation Styles */
 .donation-container {
   background-color: #f8f9fa; /* Set a background color */
