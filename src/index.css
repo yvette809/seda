@@ -141,10 +141,10 @@ a.icon svg {
 
 .hero-img img.img-2 {
   position: absolute;
-  bottom: 30%;
+  bottom: 40%;
   left: 50%;
   transform: translate(-20%, 50%);
-  width: 50%;
+  width: 60%;
   height: 50%;
   border-radius: 5px;
   object-fit: cover;
@@ -323,6 +323,11 @@ small {
     margin-top: 1.2rem;
   }
   /* end of volunteer */
+  /* background */
+  .hero-img img.img-2{
+    display: none;
+  }
+  /* end of background */
 }
 
 /* ipads */

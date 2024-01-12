@@ -13,20 +13,19 @@ const Background = () => {
   description={
     <>
       <p>
-        SEDA was initiated early 2019 and legally established as a not-for-profit
-        non-governmental and non-political organization with registration number
-        63/E.29/1111/VOL.8/ALPAS under the umbrella of Cameroon's Ministry of
-        Territorial Administration in 2021.
+        Imagine a spark ignited in 2019, evolving into SEDA – a vibrant force for change! We're not just an organization; we're a not-for-profit, non-governmental, and non-political powerhouse, officially recognized with registration number 63/E.29/1111/VOL.8/ALPAS in 2021 under Cameroon's Ministry of Territorial Administration.
       </p>
       <p>
-        Founded by a team of youths led by the founding president{' '}
-        <Link to="https://www.linkedin.com/in/ache-william-275bab205" className="founder">
-          Ache William
-        </Link>
-        , who, in his early years at the university, developed a deep passion for
-        addressing the growing challenges of human well-being and related
-        settlement, with a particular focus on women and youth in rural
-        communities.
+        Meet the visionary minds behind SEDA, a dynamic group of young leaders led by our trailblazing president, <Link to="https://www.linkedin.com/in/ache-william-275bab205" className="founder">Ache William</Link>. Inspired during his university days, Ache developed an unwavering passion to tackle the pressing challenges of human well-being and settlement, with a special focus on empowering women and youth in rural communities.
+      </p>
+      <p>
+        At SEDA, we're not just about dreams; we're about impactful action. We've already achieved significant milestones in community development, and with your support, we can accomplish so much more. By investing in SEDA, you're not just supporting an organization; you're investing in the future of sustainable, inclusive, and thriving communities.
+      </p>
+      <p>
+        Your contribution will directly fund our projects aimed at improving healthcare, education, and economic opportunities in underserved areas. Our transparent and accountable approach ensures that every dollar you invest in SEDA translates into tangible positive changes on the ground.
+      </p>
+      <p>
+        Join us in this transformative journey. Together, we can create a lasting impact and build a future where every individual, regardless of their background, has the opportunity to lead a fulfilling and prosperous life. Partner with SEDA today and be a catalyst for positive change!
       </p>
       {/* Add more paragraphs or HTML tags as needed */}
     </>
